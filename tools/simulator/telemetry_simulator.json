@@ -1,0 +1,115 @@
+{
+  "_comment": "Daily telemetry simulator configuration (afp_ml simulate). Data, not code: edit here, never in the module.",
+  "source_file": "RawData/telemetry_may_oct_2026_6months.json",
+  "timezone": "Asia/Kolkata",
+  "schedule_local_time": "00:00",
+  "retention_months": 6,
+  "cadence_minutes": 60,
+  "telemetry_id_prefix": "TEL-",
+  "expected_aircraft": [
+    "N120UA",
+    "N237UA",
+    "N512UA",
+    "N668UA",
+    "N784UA",
+    "N903UA"
+  ],
+  "generation": {
+    "_comment": "Each aircraft/metric continues as an AR(1) process around its own recent history: mean, standard deviation and lag-1 autocorrelation are estimated from the last history_days of that aircraft's readings, values are clamped to the aircraft's observed range, and each metric is missing (null) at the aircraft's observed rate. Seeded by aircraft + timestamp, so a given hour is always generated identically. No failure, maintenance or degradation event is ever injected.",
+    "history_days": 30,
+    "decimals": {
+      "engine_temp_c": 1,
+      "oil_pressure_psi": 1,
+      "vibration_index": 2
+    }
+  },
+  "status_flag_rule": {
+    "_comment": "The source system's own per-reading flag, inferred from the supplied file: this rule reproduces all 26,707 flags in it (0 mismatches, verified 2026-10-27). It is NOT the BR-01 business threshold (35 PSI / 700 C). hot_above_c and low_pressure_at_or_below_psi are fixed exactly by the data; cold_below_c lies anywhere in (393.3, 411.0] and high_pressure_at_or_above_psi in (63.5, 71.4] - any value in those ranges reproduces the file.",
+    "unknown_when_missing": [
+      "engine_temp_c",
+      "oil_pressure_psi"
+    ],
+    "hot_above_c": 925,
+    "low_pressure_at_or_below_psi": 13,
+    "cold_below_c": 400,
+    "high_pressure_at_or_above_psi": 70,
+    "high_critical_when": "hot AND low_pressure",
+    "critical_when": "hot OR low_pressure OR cold OR high_pressure",
+    "labels": {
+      "unknown": "UNKNOWN",
+      "high_critical": "HIGH CRITICAL",
+      "critical": "CRITICAL",
+      "normal": "NORMAL"
+    }
+  },
+  "etl": {
+    "_comment": "The new day's records are handed to the EXISTING ingestion path (the API's raw-upload service via its CLI) as the run_as DataEngineer. Success is reported only when the resulting telemetry_import is Completed. data_source is the ETL's APP_DATA_SOURCE; every published record is verified under it.",
+    "api_dll": "Backend/src/AFP.Api/bin/Debug/net10.0/AFP.Api.dll",
+    "run_as": "data",
+    "wait_timeout_seconds": 1200,
+    "poll_seconds": 10,
+    "data_source": "RAW_JSON_BRONZE"
+  },
+  "keep_previous_versions": 14,
+  "scenario": {
+    "_comment": "SCRIPTED OPERATIONAL SCENARIO (user decision 2026-10-28). When enabled, the simulator generates readings from these profiles instead of the AR(1) continuation: every rotation_days the next two aircraft in expected_aircraft order are at risk - the first Critical (engine temperature above the approved limit), the second HighCritical (temperature high AND oil pressure low); all others Healthy. Values are deterministic per aircraft and hour (normal noise around each profile's mean, plus a daily cycle). Every scenario reading's telemetry_id starts with id_prefix, so generated data is always identifiable. These are generated values, not observations of real aircraft.",
+    "enabled": true,
+    "id_prefix": "TEL-SCN-",
+    "anchor_date": "2026-10-21",
+    "rotation_days": 14,
+    "roles_per_period": [
+      "Critical",
+      "HighCritical"
+    ],
+    "daily_amplitude": {
+      "engine_temp_c": 15,
+      "oil_pressure_psi": 1.5,
+      "vibration_index": 0.1
+    },
+    "profiles": {
+      "Healthy": {
+        "engine_temp_c": [
+          560,
+          18
+        ],
+        "oil_pressure_psi": [
+          46,
+          2.0
+        ],
+        "vibration_index": [
+          2.0,
+          0.25
+        ]
+      },
+      "Critical": {
+        "engine_temp_c": [
+          785,
+          20
+        ],
+        "oil_pressure_psi": [
+          46,
+          2.0
+        ],
+        "vibration_index": [
+          2.2,
+          0.25
+        ]
+      },
+      "HighCritical": {
+        "engine_temp_c": [
+          790,
+          20
+        ],
+        "oil_pressure_psi": [
+          27,
+          2.0
+        ],
+        "vibration_index": [
+          2.3,
+          0.25
+        ]
+      }
+    },
+    "rewrite_history_days": 28
+  }
+}

@@ -1,0 +1,83 @@
+# =====================================================================================================
+# Aircraft Failure Prediction Platform — required tools and packages
+# =====================================================================================================
+# This file is pip-compatible. Only the Python lines at the bottom are installed by:
+#     py -3.13 -m venv ml\.venv
+#     ml\.venv\Scripts\python -m pip install -r requirements.txt
+# Everything else is documentation (comments) for the other components, which use their own
+# package managers (NuGet via .csproj, npm via Frontend/package.json). Versions below are the exact
+# versions pinned in the project files on 2026-10-20; the project files are the source of truth.
+#
+# -----------------------------------------------------------------------------------------------------
+# 1. TOOLS (install manually on Windows 11)
+# -----------------------------------------------------------------------------------------------------
+#   .NET SDK                10.0.x (built with 10.0.301)        https://dotnet.microsoft.com/download
+#   dotnet-ef (local tool)  10.0.13   -> `cd Backend; dotnet tool restore` (pinned in Backend/dotnet-tools.json)
+#   Node.js                 20.19+ or 22+ (built with 26.5.0)   https://nodejs.org
+#   npm                     10+ (built with 11.17.0)
+#   Python                  3.13 via the `py` launcher (built with 3.13.15)
+#   PostgreSQL              17, Windows service `postgresql-x64-17`, port 5432
+#                           (psql: C:\Program Files\PostgreSQL\17\bin\psql.exe)
+#   PowerShell              Windows PowerShell 5.1 or PowerShell 7
+#   Git                     any recent version
+#   VS Code                 recommended editor
+#   Docker Desktop          OPTIONAL — only for the Testcontainers PostgreSQL tests
+#
+# -----------------------------------------------------------------------------------------------------
+# 2. BACKEND — NuGet packages (restored automatically by `dotnet build` / `dotnet test`)
+# -----------------------------------------------------------------------------------------------------
+#   AFP.Api
+#     Microsoft.AspNetCore.Authentication.JwtBearer                      10.0.13
+#     Microsoft.EntityFrameworkCore.Design                               10.0.13
+#     Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore  10.0.13
+#     Swashbuckle.AspNetCore                                             10.3.1
+#     Microsoft.OpenApi                                                  2.13.0   (pinned above Swashbuckle's default to avoid GHSA-v5pm-xwqc-g5wc)
+#   AFP.Application
+#     Microsoft.Extensions.DependencyInjection.Abstractions              10.0.13
+#     Microsoft.Extensions.Logging.Abstractions                          10.0.13
+#     Microsoft.Extensions.Options                                       10.0.13
+#   AFP.Infrastructure
+#     Microsoft.EntityFrameworkCore                                      10.0.13
+#     Microsoft.EntityFrameworkCore.Relational                           10.0.13
+#     Npgsql.EntityFrameworkCore.PostgreSQL                              10.0.3
+#     EFCore.NamingConventions                                           10.0.1
+#     Microsoft.Extensions.Identity.Core                                 10.0.13  (PBKDF2 password hasher)
+#     Microsoft.Extensions.Configuration.Abstractions                    10.0.13
+#     Microsoft.Extensions.Options.ConfigurationExtensions               10.0.13
+#     System.IdentityModel.Tokens.Jwt                                    8.14.0
+#   AFP.UnitTests / AFP.IntegrationTests
+#     xunit                                                              2.9.3
+#     xunit.runner.visualstudio                                          3.1.4
+#     Microsoft.NET.Test.Sdk                                             17.14.1
+#     coverlet.collector                                                 6.0.4
+#     Microsoft.EntityFrameworkCore.InMemory                             10.0.13
+#     Microsoft.AspNetCore.Mvc.Testing                                   10.0.13  (integration only)
+#     Testcontainers.PostgreSql                                          4.16.0   (integration only)
+#
+# -----------------------------------------------------------------------------------------------------
+# 3. FRONTEND — npm packages (`cd Frontend; npm install`)
+# -----------------------------------------------------------------------------------------------------
+#   dependencies
+#     react                         18.3.1
+#     react-dom                     18.3.1
+#   devDependencies
+#     vite                          6.4.3
+#     @vitejs/plugin-react          4.7.0
+#     vitest                        3.2.7
+#     jsdom                         26.1.0
+#     @testing-library/react        16.3.3
+#     @testing-library/dom          10.4.0
+#     @testing-library/jest-dom     6.9.1
+#     @testing-library/user-event   14.6.1
+#   Fonts (CDN, no package): Google Fonts "Sora" and "DM Sans"
+#   Deliberately NOT used: TypeScript, CSS frameworks, component/chart/router libraries.
+#
+# -----------------------------------------------------------------------------------------------------
+# 4. ML — Python packages (installed by this file; source of truth: ml/requirements*.txt)
+# -----------------------------------------------------------------------------------------------------
+#   Runtime:  numpy 2.5.4, pandas 3.0.6, scikit-learn 1.9.1, scipy 1.18.1, joblib 1.6.0, psycopg[binary] 3.3.6, minio 7.2.18
+#   Dev/test: pytest 9.1.1, setuptools 84.2.0, wheel 0.48.0
+#   After installing, also run:  ml\.venv\Scripts\python -m pip install -e ml
+# =====================================================================================================
+
+-r ml/requirements-dev.txt

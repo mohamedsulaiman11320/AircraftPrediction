@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.env
+build/
+dist/
+# Model artifacts live outside source control (AFP_MODEL_DIR); never commit them.
+*.joblib

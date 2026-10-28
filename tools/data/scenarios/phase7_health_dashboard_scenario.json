@@ -1,0 +1,1586 @@
+[
+ {
+  "telemetry_id": "TEL-SCN-P7-000001",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792800000,
+  "metrics": {
+   "engine_temp_c": 517.17,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 2.31
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000002",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792803600,
+  "metrics": {
+   "engine_temp_c": 520.28,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 2.336
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000003",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792807200,
+  "metrics": {
+   "engine_temp_c": 523.17,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 2.36
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000004",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792810800,
+  "metrics": {
+   "engine_temp_c": 525.66,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 2.381
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000005",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792814400,
+  "metrics": {
+   "engine_temp_c": 527.56,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 2.397
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000006",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792818000,
+  "metrics": {
+   "engine_temp_c": 528.76,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 2.407
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000007",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792821600,
+  "metrics": {
+   "engine_temp_c": 529.17,
+   "oil_pressure_psi": 48.0,
+   "vibration_index": 2.41
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000008",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792825200,
+  "metrics": {
+   "engine_temp_c": 528.76,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 2.407
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000009",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792828800,
+  "metrics": {
+   "engine_temp_c": 527.56,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 2.397
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000010",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792832400,
+  "metrics": {
+   "engine_temp_c": 525.66,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 2.381
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000011",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792836000,
+  "metrics": {
+   "engine_temp_c": 523.17,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 2.36
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000012",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792839600,
+  "metrics": {
+   "engine_temp_c": 520.28,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 2.336
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000013",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792843200,
+  "metrics": {
+   "engine_temp_c": 517.17,
+   "oil_pressure_psi": 30.0,
+   "vibration_index": 2.31
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000014",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792846800,
+  "metrics": {
+   "engine_temp_c": 514.07,
+   "oil_pressure_psi": 30.4,
+   "vibration_index": 2.284
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000015",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792850400,
+  "metrics": {
+   "engine_temp_c": 511.17,
+   "oil_pressure_psi": 30.8,
+   "vibration_index": 2.26
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000016",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792854000,
+  "metrics": {
+   "engine_temp_c": 508.69,
+   "oil_pressure_psi": 31.2,
+   "vibration_index": 2.239
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000017",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792857600,
+  "metrics": {
+   "engine_temp_c": 506.78,
+   "oil_pressure_psi": 31.6,
+   "vibration_index": 2.224
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000018",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792861200,
+  "metrics": {
+   "engine_temp_c": 505.58,
+   "oil_pressure_psi": 32.0,
+   "vibration_index": 2.214
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000019",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792864800,
+  "metrics": {
+   "engine_temp_c": 505.17,
+   "oil_pressure_psi": 42.0,
+   "vibration_index": 2.21
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000020",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792868400,
+  "metrics": {
+   "engine_temp_c": 505.58,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 2.214
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000021",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792872000,
+  "metrics": {
+   "engine_temp_c": 506.78,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 2.224
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000022",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792875600,
+  "metrics": {
+   "engine_temp_c": 508.69,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 2.239
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000023",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792879200,
+  "metrics": {
+   "engine_temp_c": 511.17,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 2.26
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000024",
+  "tail_number": "N120UA",
+  "timestamp_epoch": 1792882800,
+  "metrics": {
+   "engine_temp_c": 514.07,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 2.284
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000025",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792800000,
+  "metrics": {
+   "engine_temp_c": 509.29,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 1.753
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000026",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792803600,
+  "metrics": {
+   "engine_temp_c": 512.4,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 1.779
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000027",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792807200,
+  "metrics": {
+   "engine_temp_c": 515.29,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 1.803
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000028",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792810800,
+  "metrics": {
+   "engine_temp_c": 517.78,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 1.824
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000029",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792814400,
+  "metrics": {
+   "engine_temp_c": 519.68,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 1.839
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000030",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792818000,
+  "metrics": {
+   "engine_temp_c": 520.88,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 1.849
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000031",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792821600,
+  "metrics": {
+   "engine_temp_c": 521.29,
+   "oil_pressure_psi": 48.0,
+   "vibration_index": 1.853
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000032",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792825200,
+  "metrics": {
+   "engine_temp_c": 520.88,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 1.849
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000033",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792828800,
+  "metrics": {
+   "engine_temp_c": 519.68,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 1.839
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000034",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792832400,
+  "metrics": {
+   "engine_temp_c": 517.78,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 1.824
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000035",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792836000,
+  "metrics": {
+   "engine_temp_c": 515.29,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 1.803
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000036",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792839600,
+  "metrics": {
+   "engine_temp_c": 512.4,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 1.779
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000037",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792843200,
+  "metrics": {
+   "engine_temp_c": 712.0,
+   "oil_pressure_psi": 30.0,
+   "vibration_index": 1.753
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000038",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792846800,
+  "metrics": {
+   "engine_temp_c": 718.6,
+   "oil_pressure_psi": 30.4,
+   "vibration_index": 1.727
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000039",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792850400,
+  "metrics": {
+   "engine_temp_c": 725.2,
+   "oil_pressure_psi": 30.8,
+   "vibration_index": 1.703
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000040",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792854000,
+  "metrics": {
+   "engine_temp_c": 731.8,
+   "oil_pressure_psi": 31.2,
+   "vibration_index": 1.682
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000041",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792857600,
+  "metrics": {
+   "engine_temp_c": 738.4,
+   "oil_pressure_psi": 31.6,
+   "vibration_index": 1.666
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000042",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792861200,
+  "metrics": {
+   "engine_temp_c": 745.0,
+   "oil_pressure_psi": 32.0,
+   "vibration_index": 1.656
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000043",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792864800,
+  "metrics": {
+   "engine_temp_c": 497.29,
+   "oil_pressure_psi": 42.0,
+   "vibration_index": 1.653
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000044",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792868400,
+  "metrics": {
+   "engine_temp_c": 497.7,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 1.656
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000045",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792872000,
+  "metrics": {
+   "engine_temp_c": 498.9,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 1.666
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000046",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792875600,
+  "metrics": {
+   "engine_temp_c": 500.81,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 1.682
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000047",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792879200,
+  "metrics": {
+   "engine_temp_c": 503.29,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 1.703
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000048",
+  "tail_number": "N237UA",
+  "timestamp_epoch": 1792882800,
+  "metrics": {
+   "engine_temp_c": 506.19,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 1.727
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000049",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792800000,
+  "metrics": {
+   "engine_temp_c": 513.8,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 2.115
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000050",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792803600,
+  "metrics": {
+   "engine_temp_c": 516.91,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 2.141
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000051",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792807200,
+  "metrics": {
+   "engine_temp_c": 519.8,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 2.165
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000052",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792810800,
+  "metrics": {
+   "engine_temp_c": 522.29,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 2.186
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000053",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792814400,
+  "metrics": {
+   "engine_temp_c": 524.2,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 2.202
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000054",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792818000,
+  "metrics": {
+   "engine_temp_c": 525.4,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 2.212
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000055",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792821600,
+  "metrics": {
+   "engine_temp_c": 525.8,
+   "oil_pressure_psi": 48.0,
+   "vibration_index": 2.215
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000056",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792825200,
+  "metrics": {
+   "engine_temp_c": 525.4,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 2.212
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000057",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792828800,
+  "metrics": {
+   "engine_temp_c": 524.2,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 2.202
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000058",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792832400,
+  "metrics": {
+   "engine_temp_c": 522.29,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 2.186
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000059",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792836000,
+  "metrics": {
+   "engine_temp_c": 519.8,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 2.165
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000060",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792839600,
+  "metrics": {
+   "engine_temp_c": 516.91,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 2.141
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000061",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792843200,
+  "metrics": {
+   "engine_temp_c": 513.8,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 2.115
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000062",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792846800,
+  "metrics": {
+   "engine_temp_c": 510.7,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 2.089
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000063",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792850400,
+  "metrics": {
+   "engine_temp_c": 507.8,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 2.065
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000064",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792854000,
+  "metrics": {
+   "engine_temp_c": 505.32,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 2.045
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000065",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792857600,
+  "metrics": {
+   "engine_temp_c": 503.41,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 2.029
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000066",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792861200,
+  "metrics": {
+   "engine_temp_c": 502.21,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 2.019
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000067",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792864800,
+  "metrics": {
+   "engine_temp_c": 501.8,
+   "oil_pressure_psi": 42.0,
+   "vibration_index": 2.015
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000068",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792868400,
+  "metrics": {
+   "engine_temp_c": 502.21,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 2.019
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000069",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792872000,
+  "metrics": {
+   "engine_temp_c": 503.41,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 2.029
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000070",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792875600,
+  "metrics": {
+   "engine_temp_c": 505.32,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 2.045
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000071",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792879200,
+  "metrics": {
+   "engine_temp_c": 507.8,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 2.065
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000072",
+  "tail_number": "N512UA",
+  "timestamp_epoch": 1792882800,
+  "metrics": {
+   "engine_temp_c": 510.7,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 2.089
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000073",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792800000,
+  "metrics": {
+   "engine_temp_c": 500.29,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 1.392
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000074",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792803600,
+  "metrics": {
+   "engine_temp_c": 503.39,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 1.418
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000075",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792807200,
+  "metrics": {
+   "engine_temp_c": 506.29,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 1.442
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000076",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792810800,
+  "metrics": {
+   "engine_temp_c": 508.77,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 1.463
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000077",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792814400,
+  "metrics": {
+   "engine_temp_c": 510.68,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 1.479
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000078",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792818000,
+  "metrics": {
+   "engine_temp_c": 511.88,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 1.489
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000079",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792821600,
+  "metrics": {
+   "engine_temp_c": 512.29,
+   "oil_pressure_psi": 48.0,
+   "vibration_index": 1.492
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000080",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792825200,
+  "metrics": {
+   "engine_temp_c": 511.88,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 1.489
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000081",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792828800,
+  "metrics": {
+   "engine_temp_c": 510.68,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 1.479
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000082",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792832400,
+  "metrics": {
+   "engine_temp_c": 508.77,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 1.463
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000083",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792836000,
+  "metrics": {
+   "engine_temp_c": 506.29,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 1.442
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000084",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792839600,
+  "metrics": {
+   "engine_temp_c": 503.39,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 1.418
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000085",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792843200,
+  "metrics": {
+   "engine_temp_c": 500.29,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 1.392
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000086",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792846800,
+  "metrics": {
+   "engine_temp_c": 497.18,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 1.366
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000087",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792850400,
+  "metrics": {
+   "engine_temp_c": 494.29,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 1.342
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000088",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792854000,
+  "metrics": {
+   "engine_temp_c": 491.8,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 1.321
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000089",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792857600,
+  "metrics": {
+   "engine_temp_c": 489.9,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 1.305
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000090",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792861200,
+  "metrics": {
+   "engine_temp_c": 488.7,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 1.295
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000091",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792864800,
+  "metrics": {
+   "engine_temp_c": 488.29,
+   "oil_pressure_psi": 42.0,
+   "vibration_index": 1.292
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000092",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792868400,
+  "metrics": {
+   "engine_temp_c": 488.7,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 1.295
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000093",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792872000,
+  "metrics": {
+   "engine_temp_c": 489.9,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 1.305
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000094",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792875600,
+  "metrics": {
+   "engine_temp_c": 491.8,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 1.321
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000095",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792879200,
+  "metrics": {
+   "engine_temp_c": 494.29,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 1.342
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000096",
+  "tail_number": "N668UA",
+  "timestamp_epoch": 1792882800,
+  "metrics": {
+   "engine_temp_c": 497.18,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 1.366
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000097",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792800000,
+  "metrics": {
+   "engine_temp_c": 517.19,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 2.403
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000098",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792803600,
+  "metrics": {
+   "engine_temp_c": 520.3,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 2.428
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000099",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792807200,
+  "metrics": {
+   "engine_temp_c": 523.19,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 2.453
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000100",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792810800,
+  "metrics": {
+   "engine_temp_c": 525.68,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 2.473
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000101",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792814400,
+  "metrics": {
+   "engine_temp_c": 527.59,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 2.489
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000102",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792818000,
+  "metrics": {
+   "engine_temp_c": 528.78,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 2.499
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000103",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792821600,
+  "metrics": {
+   "engine_temp_c": 529.19,
+   "oil_pressure_psi": 48.0,
+   "vibration_index": 2.503
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000104",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792825200,
+  "metrics": {
+   "engine_temp_c": 528.78,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 2.499
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000105",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792828800,
+  "metrics": {
+   "engine_temp_c": 527.59,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 2.489
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000106",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792832400,
+  "metrics": {
+   "engine_temp_c": 525.68,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 2.473
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000107",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792836000,
+  "metrics": {
+   "engine_temp_c": 523.19,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 2.453
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000108",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792839600,
+  "metrics": {
+   "engine_temp_c": 520.3,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 2.428
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000109",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792843200,
+  "metrics": {
+   "engine_temp_c": 517.19,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 2.403
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000110",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792846800,
+  "metrics": {
+   "engine_temp_c": 514.09,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 2.377
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000111",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792850400,
+  "metrics": {
+   "engine_temp_c": 511.19,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 2.353
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000112",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792854000,
+  "metrics": {
+   "engine_temp_c": 508.71,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 2.332
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000113",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792857600,
+  "metrics": {
+   "engine_temp_c": 506.8,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 2.316
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000114",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792861200,
+  "metrics": {
+   "engine_temp_c": 505.6,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 2.306
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000115",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792864800,
+  "metrics": {
+   "engine_temp_c": 505.19,
+   "oil_pressure_psi": 42.0,
+   "vibration_index": 2.303
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000116",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792868400,
+  "metrics": {
+   "engine_temp_c": 505.6,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 2.306
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000117",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792872000,
+  "metrics": {
+   "engine_temp_c": 506.8,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 2.316
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000118",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792875600,
+  "metrics": {
+   "engine_temp_c": 508.71,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 2.332
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000119",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792879200,
+  "metrics": {
+   "engine_temp_c": 511.19,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 2.353
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000120",
+  "tail_number": "N784UA",
+  "timestamp_epoch": 1792882800,
+  "metrics": {
+   "engine_temp_c": 514.09,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 2.377
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000121",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792800000,
+  "metrics": {
+   "engine_temp_c": 508.82,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 2.053
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000122",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792803600,
+  "metrics": {
+   "engine_temp_c": 511.93,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 2.079
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000123",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792807200,
+  "metrics": {
+   "engine_temp_c": 514.82,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 2.103
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000124",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792810800,
+  "metrics": {
+   "engine_temp_c": 517.31,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 2.124
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000125",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792814400,
+  "metrics": {
+   "engine_temp_c": 519.21,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 2.14
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000126",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792818000,
+  "metrics": {
+   "engine_temp_c": 520.41,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 2.15
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000127",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792821600,
+  "metrics": {
+   "engine_temp_c": 520.82,
+   "oil_pressure_psi": 48.0,
+   "vibration_index": 2.153
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000128",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792825200,
+  "metrics": {
+   "engine_temp_c": 520.41,
+   "oil_pressure_psi": 47.9,
+   "vibration_index": 2.15
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000129",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792828800,
+  "metrics": {
+   "engine_temp_c": 519.21,
+   "oil_pressure_psi": 47.6,
+   "vibration_index": 2.14
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000130",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792832400,
+  "metrics": {
+   "engine_temp_c": 517.31,
+   "oil_pressure_psi": 47.12,
+   "vibration_index": 2.124
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000131",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792836000,
+  "metrics": {
+   "engine_temp_c": 514.82,
+   "oil_pressure_psi": 46.5,
+   "vibration_index": 2.103
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000132",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792839600,
+  "metrics": {
+   "engine_temp_c": 511.93,
+   "oil_pressure_psi": 45.78,
+   "vibration_index": 2.079
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000133",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792843200,
+  "metrics": {
+   "engine_temp_c": 508.82,
+   "oil_pressure_psi": 45.0,
+   "vibration_index": 2.053
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000134",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792846800,
+  "metrics": {
+   "engine_temp_c": 505.71,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 2.027
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000135",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792850400,
+  "metrics": {
+   "engine_temp_c": 502.82,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 2.003
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000136",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792854000,
+  "metrics": {
+   "engine_temp_c": 500.34,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 1.983
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000137",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792857600,
+  "metrics": {
+   "engine_temp_c": 498.43,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 1.967
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000138",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792861200,
+  "metrics": {
+   "engine_temp_c": 497.23,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 1.957
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000139",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792864800,
+  "metrics": {
+   "engine_temp_c": 496.82,
+   "oil_pressure_psi": 42.0,
+   "vibration_index": 1.953
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000140",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792868400,
+  "metrics": {
+   "engine_temp_c": 497.23,
+   "oil_pressure_psi": 42.1,
+   "vibration_index": 1.957
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000141",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792872000,
+  "metrics": {
+   "engine_temp_c": 498.43,
+   "oil_pressure_psi": 42.4,
+   "vibration_index": 1.967
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000142",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792875600,
+  "metrics": {
+   "engine_temp_c": 500.34,
+   "oil_pressure_psi": 42.88,
+   "vibration_index": 1.983
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000143",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792879200,
+  "metrics": {
+   "engine_temp_c": 502.82,
+   "oil_pressure_psi": 43.5,
+   "vibration_index": 2.003
+  },
+  "status_flag": "NORMAL"
+ },
+ {
+  "telemetry_id": "TEL-SCN-P7-000144",
+  "tail_number": "N903UA",
+  "timestamp_epoch": 1792882800,
+  "metrics": {
+   "engine_temp_c": 505.71,
+   "oil_pressure_psi": 44.22,
+   "vibration_index": 2.027
+  },
+  "status_flag": "NORMAL"
+ }
+]

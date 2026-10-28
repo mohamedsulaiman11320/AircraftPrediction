@@ -1,0 +1,69 @@
+{
+  "targetDatabase": "aircraft_predict_db",
+  "output": "seed.sql",
+  "datasets": [
+    {
+      "file": "csv/status.csv",
+      "table": "status",
+      "key": [ "status_id" ],
+      "unique": [ [ "name" ] ],
+      "columns": [
+        { "name": "status_id", "type": "int", "required": true, "min": 0 },
+        { "name": "name", "type": "text", "required": true, "maxLength": 32 },
+        { "name": "description", "type": "text", "required": false, "maxLength": 256 }
+      ]
+    },
+    {
+      "file": "csv/role.csv",
+      "table": "role",
+      "key": [ "role_id" ],
+      "unique": [ [ "role_name" ] ],
+      "columns": [
+        { "name": "role_id", "type": "int", "required": true, "min": 1 },
+        { "name": "role_name", "type": "text", "required": true, "maxLength": 64 }
+      ]
+    },
+    {
+      "file": "csv/health_threshold.csv",
+      "table": "health_threshold",
+      "key": [ "code" ],
+      "unique": [ [ "display_order" ] ],
+      "columns": [
+        { "name": "code", "type": "text", "required": true, "maxLength": 64 },
+        { "name": "rule_reference", "type": "text", "required": true, "maxLength": 32 },
+        { "name": "measurement", "type": "text", "required": true, "maxLength": 32 },
+        { "name": "comparison", "type": "text", "required": true, "maxLength": 16 },
+        { "name": "threshold_value", "type": "numeric", "required": false },
+        { "name": "unit", "type": "text", "required": false, "maxLength": 16 },
+        { "name": "tier", "type": "text", "required": false, "maxLength": 32 },
+        { "name": "recommended_inspection", "type": "text", "required": false, "maxLength": 500 },
+        { "name": "source_reference", "type": "text", "required": true, "maxLength": 256 },
+        { "name": "is_validated", "type": "bool", "required": true },
+        { "name": "description", "type": "text", "required": true, "maxLength": 500 },
+        { "name": "display_order", "type": "int", "required": true, "min": 1 }
+      ]
+    },
+    {
+      "file": "csv/risk_status.csv",
+      "table": "risk_status",
+      "key": [ "code" ],
+      "unique": [ [ "display_order" ] ],
+      "columns": [
+        { "name": "code", "type": "text", "required": true, "maxLength": 32 },
+        { "name": "description", "type": "text", "required": true, "maxLength": 500 },
+        { "name": "display_order", "type": "int", "required": true, "min": 1 }
+      ]
+    },
+    {
+      "file": "csv/maintenance_action_code.csv",
+      "table": "maintenance_action_code",
+      "key": [ "code" ],
+      "unique": [ [ "display_order" ] ],
+      "columns": [
+        { "name": "code", "type": "text", "required": true, "maxLength": 32 },
+        { "name": "description", "type": "text", "required": true, "maxLength": 200 },
+        { "name": "display_order", "type": "int", "required": true, "min": 1 }
+      ]
+    }
+  ]
+}

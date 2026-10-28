@@ -1,0 +1,97 @@
+name: aircraft-fde-postgres
+
+# Raw JSON -> MinIO bronze -> PySpark -> local PostgreSQL (aircraft_predict_db on the Windows host).
+# PostgreSQL is NOT run in Docker: the application database is the local Windows service.
+services:
+  minio:
+    image: quay.io/minio/aistor/minio:latest
+    command:
+      - minio
+      - server
+      - /mnt/data
+      - --license
+      - /minio.license
+      - --console-address
+      - ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - ./minio/data:/mnt/data
+      - ./minio/minio.license:/minio.license:ro
+    restart: unless-stopped
+
+  minio-init:
+    build:
+      context: ./spark
+      dockerfile: Dockerfile
+    environment:
+      MINIO_ENDPOINT: http://minio:9000
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    depends_on:
+      - minio
+    volumes:
+      - ./spark/jobs:/opt/aircraft/jobs:ro
+    command: ["python3", "/opt/aircraft/jobs/init_minio.py"]
+    restart: "no"
+
+  spark:
+    build:
+      context: ./spark
+      dockerfile: Dockerfile
+    environment:
+      MINIO_ENDPOINT: http://minio:9000
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+      MINIO_REGION: ${MINIO_REGION}
+      HADOOP_AWS_VERSION: ${HADOOP_AWS_VERSION}
+
+      # Destination: the application's local PostgreSQL, reached from the container via the Docker host gateway.
+      APP_DB_HOST: ${APP_DB_HOST}
+      APP_DB_PORT: ${APP_DB_PORT}
+      APP_DB_NAME: ${APP_DB_NAME}
+      APP_DB_USER: ${APP_DB_USER}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD}
+      APP_DB_FORBIDDEN_NAMES: ${APP_DB_FORBIDDEN_NAMES:-aircraft_app}
+      APP_DATA_SOURCE: ${APP_DATA_SOURCE:-RAW_JSON_BRONZE}
+      AUTO_REGISTER_AIRCRAFT: ${AUTO_REGISTER_AIRCRAFT:-true}
+      PLACEHOLDER_AIRCRAFT_MODEL: ${PLACEHOLDER_AIRCRAFT_MODEL:-Unknown}
+      PLACEHOLDER_AIRCRAFT_MANUFACTURER: ${PLACEHOLDER_AIRCRAFT_MANUFACTURER:-Unknown}
+      PLACEHOLDER_AIRCRAFT_FLEET_GROUP: ${PLACEHOLDER_AIRCRAFT_FLEET_GROUP:-Unassigned}
+
+      BRONZE_PATH: s3a://bronze/telemetry/
+      SILVER_PATH: s3a://silver/telemetry_clean
+      GOLD_PATH: s3a://gold/aircraft_features
+      # Streaming state on a container volume: S3 renames on a Windows bind-mounted MinIO are unreliable.
+      CHECKPOINT_PATH: file:///opt/aircraft/checkpoints/bronze_to_app_postgres
+      TRIGGER_INTERVAL: 10 seconds
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    depends_on:
+      minio-init:
+        condition: service_completed_successfully
+
+    volumes:
+      - ./spark/jobs:/opt/aircraft/jobs:ro
+      - ivy_cache:/root/.ivy2
+      # Spark 4.2 resolves --packages under .ivy2.5.2, so the cache above was never reused and every
+      # job start re-downloaded hadoop-aws and the AWS SDK bundle (a repeated point of failure).
+      - ivy_cache_2_5_2:/root/.ivy2.5.2
+      - etl_checkpoints:/opt/aircraft/checkpoints
+
+    command:
+      - /usr/local/bin/run-spark-job
+      - /opt/aircraft/jobs/bronze_to_silver_gold_postgres_stream.py
+
+    restart: unless-stopped
+
+volumes:
+  ivy_cache:
+  ivy_cache_2_5_2:
+  etl_checkpoints:

@@ -1,0 +1,46 @@
+/*
+ * Single stylesheet entry.
+ *
+ * Layer order is deliberate: Tailwind's theme variables first, then the existing token/component CSS ("legacy"),
+ * then Tailwind utilities. Legacy tokens therefore keep their values where names overlap (--radius-sm, --shadow-sm,
+ * --font-mono ...), and a utility class always wins over a legacy rule on the element that uses it. Tailwind's
+ * preflight reset is intentionally NOT imported, so pages that do not use utilities render exactly as before.
+ */
+@layer theme, legacy, utilities;
+
+@import 'tailwindcss/theme.css' layer(theme);
+@import './tokens.css' layer(legacy);
+@import './base.css' layer(legacy);
+@import './layout.css' layer(legacy);
+@import './components.css' layer(legacy);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+/* Viewport-fitted dashboard: only where a desktop/laptop screen has room for it; otherwise the page scrolls. */
+@custom-variant fit (@media (min-width: 1024px) and (min-height: 700px));
+
+/* Brand and status colours (names chosen not to collide with the legacy --color-* tokens). */
+@theme {
+  --color-brand: #4b0082;
+  --color-brand-deep: #240046;
+  --color-brand-soft: #f1eafa;
+  --color-night: #111018;
+  --color-dusk: #191622;
+  --color-elevated: #211c2b;
+  --color-canvas: #f7f6fa;
+  --color-ink: #191622;
+  --color-ink-muted: #565166; /* 7.3:1 on white */
+  --color-line: #e4e1ea;
+  --color-crit: #b91c1c; /* 6.5:1 on white */
+  --color-crit-soft: #fee2e2;
+  --color-warn: #a16207; /* 4.9:1 on white */
+  --color-warn-soft: #fef3c7;
+  --color-ok: #15803d; /* 5.0:1 on white */
+  --color-ok-soft: #dcfce7;
+  --color-idle: #64748b; /* "no data / not assessed": 4.8:1 on white */
+  /* Work-order lifecycle: one hue, light -> dark (validated ordinal ramp; light end 3.0:1 on white). */
+  --color-wo-1: #a785d6;
+  --color-wo-2: #8350c4;
+  --color-wo-3: #6424a8;
+  --color-wo-4: #4b0082;
+  --color-wo-5: #240046;
+}

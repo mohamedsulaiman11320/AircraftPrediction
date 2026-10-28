@@ -1,0 +1,4 @@
+status_id,name,description
+0,Inactive,Record retained but not in current use.
+1,Active,Record in normal use (default for new rows).
+2,Deleted,Soft-deleted record; retained for history and audit. Distinct from physical deletion.

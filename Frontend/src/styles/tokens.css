@@ -1,0 +1,107 @@
+/* Design tokens - all colours chosen for WCAG AA contrast against their intended background. */
+:root {
+  /* Brand / navigation: dark neutrals with a restrained indigo tint (sidebar, toasts, code) */
+  --navy-950: #111018; /* brand dark background */
+  --navy-900: #191622; /* brand dark surface */
+  --navy-800: #211c2b; /* brand elevated surface */
+  --navy-700: #2e2740;
+  --slate-600: #475569;
+  --slate-500: #64748b;
+  --slate-400: #94a3b8;
+  --slate-300: #cbd5e1;
+  --slate-200: #e2e8f0;
+  --slate-100: #f1f5f9;
+  --slate-50: #f8fafc;
+
+  /* Primary / accent: brand indigo #4B0082. Semantic info stays blue (--color-info) - it carries meaning. */
+  --indigo-800: #240046;
+  --indigo-700: #3a0066;
+  --indigo-600: #4b0082;
+  --indigo-500: #6424a8;
+  --indigo-400: #b794f4; /* focus ring on the dark sidebar: 7.6:1 on #191622 */
+  --indigo-100: #e6daf5;
+  --indigo-50: #f1eafa;
+
+  /* Semantic */
+  --color-bg: #f7f6fa;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f8fafc;
+  --color-border: #dfe4ec;
+  --color-border-strong: #c3ccd9;
+  --color-text: #191622;
+  --color-text-muted: #4b5568;
+  --color-text-subtle: #5f6b7d;
+  --color-text-inverse: #f8fafc;
+  --color-accent: var(--indigo-600); /* white on it 12.0:1; on --color-bg 11.2:1 */
+  --color-accent-hover: var(--indigo-700);
+  --color-accent-active: var(--indigo-800);
+  --color-accent-soft: var(--indigo-50);
+  --color-accent-subtle: #f8f4fc; /* table-row hover tint */
+  --color-accent-ring: rgba(75, 0, 130, 0.25); /* glow under the focus border of form fields */
+  --color-focus: var(--indigo-600);
+  --color-focus-on-dark: var(--indigo-400); /* focus ring on the dark sidebar */
+
+  --color-success: #15803d;
+  --color-success-soft: #dcfce7;
+  --color-warning: #a16207;
+  --color-warning-soft: #fef3c7;
+  --color-danger: #b91c1c;
+  --color-danger-soft: #fee2e2;
+  --color-info: #1d4ed8;
+  --color-info-soft: #dbeafe;
+  --color-neutral: #475569;
+  --color-neutral-soft: #e2e8f0;
+  --color-purple: #6d28d9;
+  --color-purple-soft: #ede9fe;
+
+  /* Charts (categorical) */
+  --chart-1: #2a78d6;
+  --chart-2: #eb6834;
+  --chart-3: #1baf7a;
+  --chart-4: #6250d6;
+  --chart-grid: #e5e9f0;
+  --chart-axis: #5f6b7d;
+  --risk-low: #15803d;
+  --risk-elevated: #d97706;
+  --risk-high: #b91c1c;
+  --risk-undetermined: #64748b;
+
+  /* Type */
+  --font-heading: 'Sora', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'DM Sans', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'SFMono-Regular', Consolas, monospace;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-base: 0.9375rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+
+  /* Space / shape */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 14px;
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow: 0 1px 3px rgba(15, 23, 42, 0.08), 0 4px 12px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.22);
+
+  --sidebar-width: 256px;
+  --sidebar-collapsed-width: 76px;
+  --topnav-height: 60px;
+  --transition: 150ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition: 0ms;
+  }
+}

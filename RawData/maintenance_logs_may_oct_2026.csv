@@ -1,0 +1,117 @@
+log_id,aircraft_sn,event_date,technician_id,action_code,notes
+LOG-001,N903UA,2026-05-05,TECH-4401,TYRE_CHG,Replaced main landing gear tire due to wear.
+LOG-002,N512UA,2026-05-06,TECH-4401,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-003,N120UA,2026-05-10,TECH-5520,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-004,N668UA,2026-05-11,TECH-1102,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-005,N784UA,2026-05-11,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-006,N237UA,2026-05-17,TECH-4401,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-007,N903UA,2026-05-18,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-008,N512UA,2026-05-19,TECH-4401,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-009,N120UA,2026-05-23,TECH-1102,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-010,N668UA,2026-05-23,TECH-1102,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-011,N668UA,2026-05-26,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-012,N237UA,2026-05-31,TECH-2207,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-013,N512UA,2026-05-31,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-014,N784UA,2026-05-31,TECH-2207,TYRE_CHG,Replaced main landing gear tire due to wear.
+LOG-015,N903UA,2026-06-03,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-016,N784UA,2026-06-05,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-017,N668UA,2026-06-06,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-018,N120UA,2026-06-07,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-019,N512UA,2026-06-07,TECH-2207,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-020,N120UA,2026-06-08,TECH-6634,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-021,N784UA,2026-06-08,TECH-6634,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-022,N784UA,2026-06-09,TECH-4401,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-023,N668UA,2026-06-13,TECH-1102,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-024,N784UA,2026-06-13,TECH-5520,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-025,N237UA,2026-06-15,TECH-1102,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-026,N512UA,2026-06-15,TECH-4401,TYRE_CHG,Replaced main landing gear tire due to wear.
+LOG-027,N903UA,2026-06-16,TECH-6634,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-028,N903UA,2026-06-16,TECH-4401,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-029,N903UA,2026-06-17,TECH-4401,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-030,N237UA,2026-06-21,TECH-5520,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-031,N784UA,2026-06-21,TECH-1102,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-032,N668UA,2026-06-23,TECH-5520,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-033,N120UA,2026-06-25,TECH-1102,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-034,N237UA,2026-06-26,TECH-4401,CANCELLED,Planned inspection cancelled; aircraft rescheduled.
+LOG-035,N237UA,2026-06-28,TECH-6634,TYRE_CHG,Replaced main landing gear tire due to wear.
+LOG-036,N512UA,2026-07-01,TECH-5520,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-037,N512UA,2026-07-05,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-038,N120UA,2026-07-07,TECH-5520,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-039,N512UA,2026-07-07,TECH-3315,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-040,N120UA,2026-07-10,TECH-3315,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-041,N903UA,2026-07-12,TECH-2207,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-042,N237UA,2026-07-13,TECH-4401,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-043,N237UA,2026-07-14,TECH-3315,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-044,N784UA,2026-07-15,TECH-2207,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-045,N668UA,2026-07-17,TECH-4401,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-046,N668UA,2026-07-17,TECH-2207,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-047,N784UA,2026-07-17,TECH-2207,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-048,N903UA,2026-07-18,TECH-1102,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-049,N237UA,2026-07-21,TECH-2207,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-050,N120UA,2026-07-23,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-051,N512UA,2026-07-26,TECH-2207,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-052,N668UA,2026-07-29,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-053,N120UA,2026-08-01,TECH-1102,TYRE_CHG,Replaced main landing gear tire due to wear.
+LOG-054,N903UA,2026-08-02,TECH-5520,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-055,N903UA,2026-08-03,TECH-6634,TYRE_CHG,Replaced main landing gear tire due to wear.
+LOG-056,N120UA,2026-08-07,TECH-4401,TYRE_CHG,Replaced main landing gear tire due to wear.
+LOG-057,N512UA,2026-08-09,TECH-4401,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-058,N120UA,2026-08-10,TECH-2207,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-059,N903UA,2026-08-11,TECH-5520,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-060,N903UA,2026-08-13,TECH-4401,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-061,N120UA,2026-08-14,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-062,N237UA,2026-08-15,TECH-1102,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-063,N784UA,2026-08-16,TECH-5520,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-064,N512UA,2026-08-18,TECH-5520,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-065,N668UA,2026-08-19,TECH-3315,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-066,N784UA,2026-08-19,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-067,N903UA,2026-08-19,TECH-2207,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-068,N237UA,2026-08-20,TECH-3315,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-069,N237UA,2026-08-22,TECH-6634,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-070,N512UA,2026-08-22,TECH-6634,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-071,N120UA,2026-08-23,TECH-4401,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-072,N512UA,2026-08-23,TECH-2207,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-073,N668UA,2026-08-25,TECH-1102,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-074,N237UA,2026-08-30,TECH-5520,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-075,N668UA,2026-08-31,TECH-1102,TYRE_CHG,Replaced main landing gear tire due to wear.
+LOG-076,N512UA,2026-09-02,TECH-2207,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-077,N784UA,2026-09-03,TECH-5520,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-078,N120UA,2026-09-06,TECH-3315,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-079,N512UA,2026-09-06,TECH-4401,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-080,N512UA,2026-09-08,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-081,N120UA,2026-09-13,TECH-2207,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-082,N668UA,2026-09-13,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-083,N903UA,2026-09-13,TECH-1102,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-084,N120UA,2026-09-14,TECH-5520,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-085,N784UA,2026-09-15,TECH-2207,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-086,N237UA,2026-09-17,TECH-6634,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-087,N237UA,2026-09-17,TECH-5520,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-088,N668UA,2026-09-20,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-089,N784UA,2026-09-21,TECH-4401,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-090,N903UA,2026-09-23,TECH-4401,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-091,N784UA,2026-09-25,TECH-2207,CANCELLED,Planned inspection cancelled; aircraft rescheduled.
+LOG-092,N668UA,2026-09-28,TECH-6634,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-093,N668UA,2026-09-28,TECH-6634,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-094,N512UA,2026-09-29,TECH-2207,TYRE_CHG,Replaced main landing gear tire due to wear.
+LOG-095,N903UA,2026-09-29,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-096,N120UA,2026-09-30,TECH-1102,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-097,N668UA,2026-10-02,TECH-6634,CANCELLED,Planned inspection cancelled; aircraft rescheduled.
+LOG-098,N237UA,2026-10-04,TECH-6634,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-099,N784UA,2026-10-07,TECH-1102,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-100,N903UA,2026-10-08,TECH-5520,CANCELLED,Planned inspection cancelled; aircraft rescheduled.
+LOG-101,N512UA,2026-10-09,TECH-1102,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-102,N512UA,2026-10-09,TECH-2207,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-103,N120UA,2026-10-10,TECH-6634,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-104,N668UA,2026-10-12,TECH-5520,OIL_REPL,Engine oil and filter replaced per service interval.
+LOG-105,N903UA,2026-10-12,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-106,N512UA,2026-10-13,TECH-5520,CANCELLED,Planned inspection cancelled; aircraft rescheduled.
+LOG-107,N120UA,2026-10-16,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-108,N784UA,2026-10-17,TECH-6634,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-109,N237UA,2026-10-18,TECH-2207,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-110,N668UA,2026-10-18,TECH-1102,ENG_INSP,"Borescope inspection after rising EGT trend; seals replaced, engine returned to service."
+LOG-111,N237UA,2026-10-19,TECH-5520,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-112,N784UA,2026-10-19,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-113,N668UA,2026-10-21,TECH-1102,ENG_INSP,Routine scheduled engine inspection completed.
+LOG-114,N120UA,2026-10-22,TECH-5520,CANCELLED,Planned inspection cancelled; aircraft rescheduled.
+LOG-115,N512UA,2026-10-24,TECH-3315,ENG_UNSCHED_REMOVAL,Unscheduled engine removal after in-service EGT exceedance and low oil pressure.
+LOG-116,N903UA,2026-10-28,TECH-6634,ENG_INSP,Routine scheduled engine inspection completed.

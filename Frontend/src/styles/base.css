@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: 1.5;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  line-height: 1.25;
+  margin: 0 0 var(--space-2);
+  color: var(--color-text);
+  letter-spacing: -0.01em;
+}
+h1 { font-size: var(--fs-2xl); font-weight: 700; }
+h2 { font-size: var(--fs-xl); font-weight: 600; }
+h3 { font-size: var(--fs-lg); font-weight: 600; }
+h4 { font-size: var(--fs-md); font-weight: 600; }
+
+p { margin: 0 0 var(--space-3); }
+
+a {
+  color: var(--color-accent);
+  text-underline-offset: 2px;
+}
+a:hover { color: var(--color-accent-hover); }
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+
+code,
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+}
+
+pre {
+  background: var(--navy-900);
+  color: #e2e8f0;
+  padding: var(--space-4);
+  border-radius: var(--radius);
+  overflow: auto;
+  max-height: 420px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--space-4);
+  top: -60px;
+  z-index: 1000;
+  background: var(--color-surface);
+  color: var(--color-accent);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+  font-weight: 600;
+}
+.skip-link:focus {
+  top: var(--space-3);
+}
+
+.muted { color: var(--color-text-muted); }
+.subtle { color: var(--color-text-subtle); font-size: var(--fs-sm); }
+.mono { font-family: var(--font-mono); font-size: 0.85em; }
+.nowrap { white-space: nowrap; }
+.text-danger { color: var(--color-danger); }
+.text-right { text-align: right; }

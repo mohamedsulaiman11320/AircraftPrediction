@@ -1,0 +1,7 @@
+# Files executed inside Linux containers must keep LF line endings on every checkout (core.autocrlf would add CR).
+*.sh            text eol=lf
+Dockerfile      text eol=lf
+*.dockerfile    text eol=lf
+nginx.conf      text eol=lf
+tools/db/*.sql  text eol=lf
+tools/db/seed/*.sql text eol=lf

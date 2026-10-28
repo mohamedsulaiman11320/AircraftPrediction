@@ -1,0 +1,9 @@
+# Runtime dependencies for the afp_ml package (Python 3.13). Versions verified to install on Windows 11.
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+psycopg[binary]==3.3.6
+# Model artifact storage in MinIO (same pinned version as the Spark image, aircraft-fde-auto-etl-postgres/spark/Dockerfile).
+minio==7.2.18

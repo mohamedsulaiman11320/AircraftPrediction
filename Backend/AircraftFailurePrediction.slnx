@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AFP.Api/AFP.Api.csproj" />
+    <Project Path="src/AFP.Application/AFP.Application.csproj" />
+    <Project Path="src/AFP.Domain/AFP.Domain.csproj" />
+    <Project Path="src/AFP.Infrastructure/AFP.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AFP.IntegrationTests/AFP.IntegrationTests.csproj" />
+    <Project Path="tests/AFP.UnitTests/AFP.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/AFP.SeedSql/AFP.SeedSql.csproj" />
+  </Folder>
+</Solution>

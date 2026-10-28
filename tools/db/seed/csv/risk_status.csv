@@ -1,0 +1,7 @@
+code,description,display_order
+Low,No notable recent anomaly activity in the evaluated window.,1
+Elevated,Increased anomaly activity; engineering review recommended.,2
+High,Significant anomaly activity or model-indicated risk; prompt engineering review required.,3
+Undetermined,Insufficient recent data to assess.,4
+Critical,The 30-day sensor forecast crosses one approved operating limit; inspection planned.,5
+HighCritical,The 30-day sensor forecast crosses the engine-temperature and oil-pressure limits; inspection planned.,6

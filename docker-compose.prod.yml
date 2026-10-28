@@ -1,0 +1,100 @@
+# Production stack: PostgreSQL 17, ASP.NET Core API, ML worker, nginx-served SPA.
+#
+#   cp .env.prod.example .env.prod      # then replace every CHANGE_ME (never commit .env.prod)
+#   docker compose --env-file .env.prod -f docker-compose.prod.yml up -d --build
+#   # First account: the password is read from AFP_BOOTSTRAP_ADMIN_PASSWORD (never on the command line). Default role
+#   # FlightDispatcher; create the DataEngineer first - it approves all other accounts. Clear the variable afterwards.
+#   AFP_BOOTSTRAP_ADMIN_PASSWORD=... docker compose --env-file .env.prod -f docker-compose.prod.yml run --rm \
+#       -e AFP_BOOTSTRAP_ADMIN_PASSWORD backend bootstrap-admin --username <name> --email <email> --role DataEngineer
+#
+# --env-file matters: values such as ${DB_PASSWORD} below are interpolated from it (without it compose would read the
+# developer .env). The database is aircraft_predict_db; aircraft_app is refused by the API, the ML package and the SQL.
+#
+# First start of an EMPTY pgdata volume initialises the database in order: 00 roles (provision.sql), 01 schema
+# (EF idempotent script), 02 reference seed, 03 grants. Later schema changes: regenerate tools/db/schema.sql and apply
+# it (and grant-privileges.sql) as the schema owner - initdb scripts never run again on an existing volume.
+#
+# Not included: MinIO (raw JSON uploads to Bronze, model artifact mirror) and the Spark ETL
+# (aircraft-fde-auto-etl-postgres); set MINIO_* in .env.prod to point the API and worker at an existing MinIO.
+
+name: aircraft-failure-prediction
+
+networks:
+  afp_internal_net:
+    driver: bridge
+
+volumes:
+  pgdata:
+  ml_models:
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-aircraft_predict_db}
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env.prod}
+      # Read only by the initdb role/grant scripts.
+      AFP_API_ROLE: ${DB_APP_USER:-afp_predict_api}
+      AFP_API_PASSWORD: ${API_USER_PASSWORD:?Set API_USER_PASSWORD in .env.prod}
+      AFP_ML_READER_ROLE: ${ML_READER_USER:-afp_predict_ml_reader}
+      AFP_ML_READER_PASSWORD: ${ML_READER_PASSWORD:?Set ML_READER_PASSWORD in .env.prod}
+      AFP_ETL_WRITER_ROLE: ${ETL_WRITER_USER:-afp_predict_etl_writer}
+      AFP_ETL_WRITER_PASSWORD: ${ETL_WRITER_PASSWORD:?Set ETL_WRITER_PASSWORD in .env.prod}
+      AFP_INGEST_ROLE: ${INGEST_USER:-afp_predict_ingest}
+      AFP_INGEST_PASSWORD: ${INGEST_PASSWORD:?Set INGEST_PASSWORD in .env.prod}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./tools/docker/initdb/00-roles.sh:/docker-entrypoint-initdb.d/00-roles.sh:ro
+      - ./tools/db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+      - ./tools/db/seed/seed.sql:/docker-entrypoint-initdb.d/02_seed.sql:ro
+      - ./tools/docker/initdb/03-grants.sh:/docker-entrypoint-initdb.d/03-grants.sh:ro
+      - ./tools/db/provision.sql:/afp-db/provision.sql:ro
+      - ./tools/db/grant-privileges.sql:/afp-db/grant-privileges.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-aircraft_predict_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - afp_internal_net
+
+  backend:
+    build:
+      context: ./Backend
+    restart: unless-stopped
+    env_file: .env.prod
+    depends_on:
+      db:
+        condition: service_healthy
+    expose:
+      - "5080"
+    networks:
+      - afp_internal_net
+
+  ml_worker:
+    build:
+      context: ./ml
+    restart: unless-stopped
+    env_file: .env.prod
+    depends_on:
+      db:
+        condition: service_healthy
+      backend:
+        condition: service_started
+    volumes:
+      - ml_models:/root/.local/share/AircraftFailurePrediction/models
+    networks:
+      - afp_internal_net
+
+  frontend:
+    build:
+      context: ./Frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+    networks:
+      - afp_internal_net

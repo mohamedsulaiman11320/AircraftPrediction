@@ -1,0 +1,290 @@
+[
+  {
+    "log_id": "MAINT-SYN-0001",
+    "aircraft_sn": "N120UA",
+    "event_date": "2025-11-22",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0007",
+    "aircraft_sn": "N237UA",
+    "event_date": "2025-11-23",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0013",
+    "aircraft_sn": "N512UA",
+    "event_date": "2025-11-24",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0019",
+    "aircraft_sn": "N668UA",
+    "event_date": "2025-11-25",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0025",
+    "aircraft_sn": "N784UA",
+    "event_date": "2025-11-26",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0031",
+    "aircraft_sn": "N903UA",
+    "event_date": "2025-11-27",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0002",
+    "aircraft_sn": "N120UA",
+    "event_date": "2026-01-21",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0008",
+    "aircraft_sn": "N237UA",
+    "event_date": "2026-01-22",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0014",
+    "aircraft_sn": "N512UA",
+    "event_date": "2026-01-23",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0020",
+    "aircraft_sn": "N668UA",
+    "event_date": "2026-01-24",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0026",
+    "aircraft_sn": "N784UA",
+    "event_date": "2026-01-25",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0032",
+    "aircraft_sn": "N903UA",
+    "event_date": "2026-01-26",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0003",
+    "aircraft_sn": "N120UA",
+    "event_date": "2026-03-22",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0009",
+    "aircraft_sn": "N237UA",
+    "event_date": "2026-03-23",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0015",
+    "aircraft_sn": "N512UA",
+    "event_date": "2026-03-24",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0021",
+    "aircraft_sn": "N668UA",
+    "event_date": "2026-03-25",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0027",
+    "aircraft_sn": "N784UA",
+    "event_date": "2026-03-26",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0033",
+    "aircraft_sn": "N903UA",
+    "event_date": "2026-03-27",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0004",
+    "aircraft_sn": "N120UA",
+    "event_date": "2026-05-21",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0010",
+    "aircraft_sn": "N237UA",
+    "event_date": "2026-05-22",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0016",
+    "aircraft_sn": "N512UA",
+    "event_date": "2026-05-23",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0022",
+    "aircraft_sn": "N668UA",
+    "event_date": "2026-05-24",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0028",
+    "aircraft_sn": "N784UA",
+    "event_date": "2026-05-25",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0034",
+    "aircraft_sn": "N903UA",
+    "event_date": "2026-05-26",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0005",
+    "aircraft_sn": "N120UA",
+    "event_date": "2026-07-20",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0011",
+    "aircraft_sn": "N237UA",
+    "event_date": "2026-07-21",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0017",
+    "aircraft_sn": "N512UA",
+    "event_date": "2026-07-22",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0023",
+    "aircraft_sn": "N668UA",
+    "event_date": "2026-07-23",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0029",
+    "aircraft_sn": "N784UA",
+    "event_date": "2026-07-24",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0035",
+    "aircraft_sn": "N903UA",
+    "event_date": "2026-07-25",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0006",
+    "aircraft_sn": "N120UA",
+    "event_date": "2026-09-18",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0012",
+    "aircraft_sn": "N237UA",
+    "event_date": "2026-09-19",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0018",
+    "aircraft_sn": "N512UA",
+    "event_date": "2026-09-20",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0024",
+    "aircraft_sn": "N668UA",
+    "event_date": "2026-09-21",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0030",
+    "aircraft_sn": "N784UA",
+    "event_date": "2026-09-22",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  },
+  {
+    "log_id": "MAINT-SYN-0036",
+    "aircraft_sn": "N903UA",
+    "event_date": "2026-09-23",
+    "technician_id": null,
+    "action_code": "ENG_UNSCHED_REMOVAL",
+    "notes": "SYNTHETIC TRAINING DATA ONLY — generated unscheduled engine-removal event; not a real aircraft maintenance record. Used only to prototype the 30-day failure-labeling and model-training pipeline."
+  }
+]

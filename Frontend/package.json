@@ -1,0 +1,33 @@
+{
+  "name": "afp-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Aircraft Failure Prediction Platform - React frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 5173",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/vite": "4.3.3",
+    "@testing-library/dom": "10.4.0",
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.1",
+    "@vitejs/plugin-react": "4.7.0",
+    "jsdom": "26.1.0",
+    "tailwindcss": "4.3.3",
+    "vite": "6.4.3",
+    "vitest": "3.2.7"
+  }
+}

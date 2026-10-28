@@ -1,0 +1,9 @@
+code,rule_reference,measurement,comparison,threshold_value,unit,tier,recommended_inspection,source_reference,is_validated,description,display_order
+OilPressureLowPsi,BR-01,OilPressure,LessThan,35,psi,,Inspect the oil pressure regulator.,The Hub BRD v0.4 (21 October 2026) section 8 BR-01/BR-04; approved by the business owner 2026-10-27,true,Oil pressure falls below 35 PSI within the evaluation window.,1
+EngineTemperatureHighC,BR-01,EngineTemperature,GreaterThan,700,C,,Immediate thermal shroud and turbine inspection.,The Hub BRD v0.4 (21 October 2026) section 8 BR-01/BR-04; approved by the business owner 2026-10-27,true,Engine temperature exceeds 700 C within the evaluation window.,2
+HighRiskWindowHours,BR-01,None,None,24,hours,,,The Hub BRD v0.4 (21 October 2026) section 8 BR-01; approved by the business owner 2026-10-27,true,Length of the latest period the high-risk thresholds are evaluated over.,3
+RoutineOperationalCheck,BR-04,None,None,,,,Routine operational check.,The Hub BRD v0.4 (21 October 2026) section 8 BR-04,false,Recommended inspection when no high-risk threshold is breached.,4
+RiskTierCritical,BR-03,FailureRiskScore,GreaterThan,0.70,score,Critical,,The Hub BRD v0.4 (21 October 2026) section 8 BR-03,false,A 30-day failure-risk score above 0.70 is Critical.,5
+RiskTierMedium,BR-03,FailureRiskScore,GreaterThan,0.30,score,Medium,,The Hub BRD v0.4 (21 October 2026) section 8 BR-03,false,A 30-day failure-risk score above 0.30 up to and including 0.70 is Medium.,6
+RiskTierLow,BR-03,FailureRiskScore,None,,score,Low,,The Hub BRD v0.4 (21 October 2026) section 8 BR-03,false,A 30-day failure-risk score of 0.30 or below is Low.,7
+TelemetryStaleAfterHours,OPS,None,None,48,hours,,,Daily telemetry simulator schedule (00:00 IST batch; tools/simulator/telemetry_simulator.json),false,Telemetry whose latest reading is older than this is shown as stale (one missed daily batch plus margin).,8

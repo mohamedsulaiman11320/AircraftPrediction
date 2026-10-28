@@ -1,0 +1,60 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.prod.example
+*.pfx
+*.key
+appsettings.*.local.json
+secrets.json
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+*.trx
+coverage*.xml
+
+# Node / Vite
+node_modules/
+dist/
+coverage/
+*.local
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+
+# ML artifacts and data never belong in source control
+*.joblib
+*.pkl
+models/
+artifacts/
+tools/data/*.csv
+
+# ETL object storage data and vendor license (raw telemetry lives in MinIO, not Git)
+aircraft-fde-auto-etl-postgres/minio/data/
+aircraft-fde-auto-etl-postgres/minio/minio.license
+
+# Logs
+logs/
+*.log
+
+# OS / editors
+Thumbs.db
+.DS_Store
+.idea/
+
+# Playwright output at the repository root
+test-results/
+playwright-report/
+
+# Incomplete browser downloads
+*.crdownload
